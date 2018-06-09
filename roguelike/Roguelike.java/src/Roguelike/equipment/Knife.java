@@ -35,11 +35,13 @@ public class Knife extends Weapon{
 	 
 	
 	@Override
+	public
 	int getAggressivity() {
 		return this.aggressivity;
 	}
 
 	@Override
+	public
 	void setAggressivity(int Aggressivity) {
 		this.aggressivity=Aggressivity;			
 	}

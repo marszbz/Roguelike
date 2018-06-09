@@ -1,4 +1,6 @@
 package Roguelike;
+import Roguelike.creature.*;
+
 /*зїеп Mars
  *2018.6.4 
  */

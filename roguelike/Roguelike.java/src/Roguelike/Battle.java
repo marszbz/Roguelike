@@ -1,4 +1,6 @@
 package Roguelike;
+import Roguelike.creature.Monest;
+import Roguelike.creature.Hero;
 /*作者 Mars
  *2018.6.4 
  * */
@@ -35,21 +37,7 @@ public class Battle {
 			
 			
         }
-        if(myHero.getAlive()==false){
-        	System.out.println("\n你已经死亡");  
-        	System.out.println("\n战胜方是"+myMonest.getName());  
-            System.out.println("\n战争统计");  
-            i+=1;  
-            System.out.println(myHero.getName()+"与"+ myMonest.getName()+
-            		"战斗"+i+"次"); 
-        }
-        if(myMonest.getAlive()==false){
-        	
-        	System.out.println("\n战胜方是"+myHero.getName());  
-            System.out.println("\n战争统计");  
-            i+=1;  
-            System.out.println(myHero.getName()+"与"+ myMonest.getName()+"战斗"+
-            i+"次"); 
-        }
+       
+        
 	}
 }
